@@ -1,4 +1,4 @@
-# GameOfDice
+# Game Of Dice
 # It's game of dice app. You can make the die roll at the press of a button or by shaking your phone. 
 
 
