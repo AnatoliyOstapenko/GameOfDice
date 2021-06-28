@@ -40,14 +40,17 @@
                                 <state key="normal" title="Roll">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="rollButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dDx-LD-jeV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="diceLeft" destination="fay-yF-If9" id="aFw-5a-vQ1"/>
-                        <outlet property="diceRight" destination="CQr-7f-d3L" id="QdE-Ip-blz"/>
+                        <outlet property="diceLeftImageView" destination="fay-yF-If9" id="aFw-5a-vQ1"/>
+                        <outlet property="diceRightImageView" destination="CQr-7f-d3L" id="QdE-Ip-blz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
