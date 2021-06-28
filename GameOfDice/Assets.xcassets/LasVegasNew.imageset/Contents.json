@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "LasVegas.jpg",
+      "filename" : "LasVegasNew.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "LasVegas@2x.jpg",
+      "filename" : "LasVegasNew@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "LasVegas@3x.jpg",
+      "filename" : "LasVegasNew@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
