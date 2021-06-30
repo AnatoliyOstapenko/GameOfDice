@@ -16,20 +16,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4F8-SJ-0H8">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4F8-SJ-0H8" userLabel="Background Launch">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="codeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="RP9-l3-hlK">
-                                <rect key="frame" x="15" y="249" width="385" height="314"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="codeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="RP9-l3-hlK">
+                                <rect key="frame" x="124" y="365" width="166.5" height="166.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RP9-l3-hlK" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="0Kq-6T-pHP"/>
+                            <constraint firstItem="4F8-SJ-0H8" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="4k8-sT-QFZ"/>
+                            <constraint firstItem="RP9-l3-hlK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4oQ-5W-myL"/>
+                            <constraint firstItem="4F8-SJ-0H8" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Wen-hl-0WE"/>
+                            <constraint firstAttribute="bottom" secondItem="4F8-SJ-0H8" secondAttribute="bottom" id="dj3-LK-9FW"/>
+                            <constraint firstItem="4F8-SJ-0H8" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="eoc-PJ-bbk"/>
+                            <constraint firstAttribute="bottom" secondItem="4F8-SJ-0H8" secondAttribute="bottom" id="nL7-Xm-d6Y"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -38,7 +45,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="codeLogo" width="166" height="166"/>
+        <image name="codeLogo" width="166.5" height="166.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
